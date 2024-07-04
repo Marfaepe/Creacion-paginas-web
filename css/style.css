@@ -1,0 +1,205 @@
+:root{
+    --fondo:#dedede;
+    --fondo-contenedor:#342e29;
+    --blanco-texto:#E0DFDA ;
+    --azul-color: #9CC4E5 ;
+    --tamanio-uno:44px;
+    --tamanio-dos:24px;
+    --tamanio-tres:18px;
+    --tamanio-resto:14px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+iframe{
+    border: 0;
+}
+html{
+    scroll-behavior: auto;
+}
+/* Ejemplos de variables  */
+/* h1,h2,h3,h4,h5,h6{
+    color:var(--acent-color);
+    font-weight: normal;
+}
+a{
+    color: var(--acent-color);
+} */
+body{
+    background-color: var(--fondo);
+    font-family:'Lucida Sans Unicode', sans-serif;
+    color: var(--blanco-texto);
+    font-size: 14px;
+}
+#contenedor{
+    width:650px;
+    background-color: var(--fondo-contenedor);
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+h1,h2,h3,h4,h5,h6,a,em{
+    color: var(--azul-color);
+}
+h1{
+    font-size: var(--tamanio-uno);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+h2{
+    font-size: var(--tamanio-dos);
+}
+h3{
+    font-size: var(--tamanio-tres);
+}
+a,p,li,figcaption{
+    font-size: var(--tamanio-resto);
+    
+}
+.especial{
+    color: var(--azul-color);
+}
+figure{
+    text-align: center;
+}
+#foto{
+    border: 2px solid var(--azul-color);
+    padding: 4px;
+}
+figcaption{
+font-style:italic;
+}
+.index-header{
+    text-align: center;
+}
+.lista-index li {
+   display: inline-block;
+ border: 1px solid var(--blanco-texto);
+ margin: 10px;
+}
+.lista-index a{
+    text-decoration: none;
+    padding: 5px;
+    color: var(--blanco-texto);
+  }
+
+.lista-index a:hover{
+    color: var(--azul-color);
+   
+}
+.lista-index a:focus{
+    outline: 2px dotted red;
+  }
+p{
+    text-align: justify;
+    margin: 15px 0;
+}
+blockquote{
+    font-size: var(--tamanio-resto);
+    text-align: justify;
+    border-left: 2px solid;
+    padding-left: 20px;
+    
+}
+#cita{
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+footer p {
+text-align: center;
+
+}
+footer{
+    border-top: 2px solid;
+    margin-top: 40px;
+}
+/*Estilos de Filmografia*/
+
+.filmografia-section a{
+    color: var(--blanco-texto);
+}
+.filmografia-section a:hover{
+    color: var(--azul-color);
+}
+.filmografia-section{
+    margin-top: 30px;
+}
+section .subir {
+    display: block;
+    text-align: right;
+    color: var(--azul-color);
+   
+}
+section .subir:hover{
+    text-decoration: none;
+}
+/*Estilos Galerçia*/
+.galeria-main{
+    text-align: center;
+}
+.galeria-main h1{
+    font-size: var(--tamanio-dos);
+    text-align: left;
+}
+.galeria-main li{
+    display: inline-block;
+       
+}  
+.galeria-main a{
+    display: block;
+    text-decoration: none;
+   
+ }
+imagen-galeria a{
+    display: block; 
+   border: 2px solid var(--azul-color);
+    
+}
+
+.galeria-main a:hover{
+  
+    outline: 2px solid var(--azul-color);
+}
+
+ /*Estilos Extras*/
+
+.extras-main h1{
+    text-align: left;
+    font-size: var(--tamanio-dos);
+}
+.extras-main h2{
+    font-size: var(--tamanio-tres);
+    margin: 20px 0px;
+}
+#extras-listas li{
+
+    margin-left: 40px ;
+}
+#cara{
+    color: orange;
+    font-size: 16px;
+}
+#tableta{
+    width: 520px;
+    border: 1px solid var(--blanco-texto);
+ 
+    border-spacing: 0px;
+    text-align: center;
+    margin-bottom: 25px;
+   
+}
+#tableta th{
+    padding: 10px;
+    background-color: #666;
+   
+}
+#tableta td{
+    color: var(--blanco-texto);
+    text-align: left;
+    padding-left: 10px;
+}
